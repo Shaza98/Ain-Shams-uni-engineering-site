@@ -46,7 +46,9 @@
     margin-left: 2%;
     margin-right: 2%;
 }
-
+.card{
+    box-shadow: 12px 0 15px -4px rgb(187, 187, 187), -12px 0 8px -4px rgb(187, 187, 187);
+}
 .card1{
     border-top: 5px solid rgb(255, 123, 0);
 }
