@@ -46,9 +46,7 @@
     margin-left: 2%;
     margin-right: 2%;
 }
-.card-group{
-    width: 100% !important;
-}
+
 .card1{
     border-top: 5px solid rgb(255, 123, 0);
 }
@@ -75,5 +73,12 @@
 }
 .footer{
     float: left;
+    text-align: center;
+}
+.fab{
+    background-color:  #3B5998;
+    color: white;
+    width:20px;
+    height: 20px;
     text-align: center;
 }
