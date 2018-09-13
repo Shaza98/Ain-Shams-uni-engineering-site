@@ -1,0 +1,79 @@
+.a{
+    color: white !important;
+}
+
+#logo{
+    height: 25%;
+    width: auto;
+    
+}
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content:'.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden; 
+}
+.b{
+    color: black;
+    border-right:1px solid rgb(165, 165, 165);
+}
+
+.imgs{
+    width:100% ;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.top-navbar{
+    height: 8%;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.col-sm{
+    height: 60%;
+    border: solid rgb(199, 199, 199);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.news{
+    height: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.card-group{
+    width: 100% !important;
+}
+.card1{
+    border-top: 5px solid rgb(255, 123, 0);
+}
+.card2{
+    border-top: 5px solid red;
+}
+.card3{
+    border-top: 5px solid blue;
+}
+.card-title{
+    text-align: center;
+}
+.card-img-top{
+    height: 30%;
+    width: 100%;
+}
+.footer-nav{
+    float: left;
+}
+.social-links {
+    list-style: none;
+    float: right;
+    margin-right: 5%;
+}
+.footer{
+    float: left;
+    text-align: center;
+}
