@@ -2,6 +2,9 @@
     .card-img-top{
         height: 60%;
     }
+    .card{
+        height: 45% !important;
+    }
 }
 @media only screen and (max-width:1200px){
     .card-img-top{
