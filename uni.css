@@ -1,11 +1,67 @@
+@media only screen and (min-width:1200px){
+    .card-img-top{
+        height: 60%;
+    }
+}
+@media only screen and (max-width:1200px){
+    .card-img-top{
+        height: 55% !important;
+    }
+}
+@media only screen and (max-width:992px){
+    #uni-building{
+        width:80%;
+    }
+    .card-img-top{
+        height: 45% !important;
+    }
+    .card{
+        height: 40% !important;
+    }
+}
+@media only screen and (max-width:768px){
+    #uni-building{
+        width:65%;
+    }
+    #logo{
+        margin-right:1rem !important;
+    }
+    .card h5{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:559px){
+    #logo{
+        width:20% !important;
+    }
+}
+@media only screen and (max-width:576px){
+    .col-sm{
+        width:20% !important;
+        font-size: 3vw !important;
+    }
+    .recent-news{
+        font-size: 4vw !important;
+        padding: 0;
+    }
+    .card-group{
+        align-items: center;
+        flex-direction: row !important;
+    }
+}
+@media only screen and (max-width:534px){
+    .card h5{
+        font-size: 2.7vw !important;
+    }
+}    
+@media only screen and (max-width:474px){
+    #uni-building{
+        width:50%;
+        height:30%;
+    }
+}
 .a{
     color: white !important;
-}
-
-#logo{
-    height: 25%;
-    width: auto;
-    padding-left: 50%;   
 }
 .clearfix {zoom: 1;}
 .clearfix:after {
@@ -31,7 +87,7 @@
     margin: 0;
 }
 .top-navbar{
-    height: 8%;
+    height:50px;
 }
 .container{
     margin-left: 10%;
@@ -51,6 +107,7 @@
 }
 .card{
     box-shadow: 12px 0 15px -4px rgb(187, 187, 187), -12px 0 8px -4px rgb(187, 187, 187);
+    height:10rem;
 }
 .card1{
     border-top: 5px solid rgb(255, 123, 0);
@@ -65,7 +122,7 @@
     text-align: center;
 }
 .card-img-top{
-    height: 30%;
+    height: 60%;
     width: 100%;
 }
 .footer-nav{
