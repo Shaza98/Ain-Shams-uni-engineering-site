@@ -54,13 +54,35 @@
 }
 @media only screen and (max-width:534px){
     .card h5{
-        font-size: 2.7vw !important;
+        font-size: 3vw !important;
     }
 }    
 @media only screen and (max-width:474px){
     #uni-building{
         width:50%;
         height:30%;
+    }
+    .card-group{
+        flex-direction: column !important;
+    }
+    .card h5{
+        font-size: 5vw !important;
+    }
+    .shadow-container{
+        width: 80% !important;
+    }
+    .new-students{
+        margin-top: 200px;
+    }
+    .col-sm{
+        width:40% !important;
+        font-size: 3.6vw !important;
+    }
+    .recent-news{
+        font-size: 6vw !important;
+    }
+    .d-block{
+        height: 35%;
     }
 }
 .a{
